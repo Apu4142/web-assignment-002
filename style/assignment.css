@@ -43,9 +43,11 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-.container-2{
+
+.container-2 {
     max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .pre-descriptionn {
@@ -160,17 +162,19 @@
 /* section-3 */
 .flower-store-img {
     width: 100%;
-    margin: 0 10px;
+    margin: 0 auto;
 
 }
 
 #trusted {
-    margin-left: 350px;
+    margin-left: 340px;
     margin-bottom: -110px;
     position: relative;
     top: 0;
     margin-top: 0;
+    border-radius: 50%;
 }
+
 
 .trusted-badge-img {
     width: 100%;
@@ -178,7 +182,7 @@
 }
 
 .flower-store-title {
-    gap: 60px;
+    gap: 90px;
     justify-content: space-between;
     margin-bottom: 130px;
 }
@@ -195,20 +199,21 @@
 }
 
 /* section-4 */
-.title-4{
+.title-4 {
     text-align: center;
     margin-bottom: 120px;
 }
-.section-4-h1{
+
+.section-4-h1 {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 16px;
-    
+
 }
 
 .flower-card {
     gap: 28px;
-    margin-bottom: 130px;
+    margin-bottom: 120px;
 }
 
 
@@ -282,10 +287,12 @@
     font-size: 14px;
     color: white;
 }
-.btn-3{
+
+.btn-3 {
     margin-top: 15px;
 }
-.section-4-h2{
+
+.section-4-h2 {
     margin-bottom: 0;
 }
 
@@ -333,8 +340,8 @@
 
 /* Style the form and button */
 .from {
-    width: 40.25rem;
-    height: 2.8rem;
+    width: 39rem;
+    height: 2.7rem;
     padding-left: 15px;
     font-size: 1rem;
 }
@@ -350,10 +357,39 @@
     cursor: pointer;
 }
 
+/* footer */
+.footer-content {
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    margin-top: -50px;
+}
+
+.footer-ul li {
+    list-style: none;
+    margin-bottom: 32px;
+
+}
+
+.footer-ul a {
+    text-decoration: none;
+}
+
+.footer-online img {
+    margin-left: 24px;
+
+}
+
+.footer-online {
+    margin-top: -225px;
+}
+
 /* media */
 @media screen and (max-width: 768px) {
 
-    .flower-card{
+    .flower-card {
         flex-direction: column;
         text-align: center;
     }
@@ -384,34 +420,55 @@
     /* Card responsiveness */
     .card-container {
         grid-template-columns: repeat(2, 1fr);
-        
+
     }
 
     #trusted {
         display: none;
     }
 
-    
-      .from {
-        width: 100%;
-    }
-    .overlay-1{
+
+ .from {
+    width: 200px;
+    height: 2.7rem;
+    margin-left: 27px;
+    font-size: 1rem;
+}
+
+    .overlay-1 {
         font-size: 20px;
         display: block;
         white-space: nowrap;
 
     }
 
-  
-
     .overlay-2 {
-        margin-top: 20px ;
+        margin-top: 20px;
         width: 100%;
     }
 
     .button-2 {
         width: 100%;
     }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-online {
+        margin-top: 0px;
+        margin-left: -160px;
+    }
+
+    .footer-ul li {
+        margin-left: -190px;
+
+    }
+
+    .footer-logo {
+        margin-top: 0px;
+    }
+
 
 
 }
