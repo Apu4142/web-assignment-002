@@ -298,6 +298,10 @@
 /* media */
 @media screen and (max-width: 768px) {
 
+    .flower-card{
+        flex-direction: column;
+    }
+
     /* Image and texts center align */
     .teams,
     .flower-store-title {
@@ -329,5 +333,10 @@
     #trusted {
         display: none;
     }
+    .flower-img-1{
+        width: 100%;
+        margin: 0 auto;
+    }
+
 
 }
