@@ -305,9 +305,9 @@
 }
 
 .last-img {
-    width: 100%;
-    display: block;
-    border-radius: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* display: block; */
 }
 
 /* Center the headline over the image */
@@ -350,19 +350,12 @@
     cursor: pointer;
 }
 
-/* For horizontal layout of form + button */
-.display-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
 /* media */
 @media screen and (max-width: 768px) {
 
     .flower-card{
         flex-direction: column;
+        text-align: center;
     }
 
     /* Image and texts center align */
@@ -391,10 +384,33 @@
     /* Card responsiveness */
     .card-container {
         grid-template-columns: repeat(2, 1fr);
+        
     }
 
     #trusted {
         display: none;
+    }
+
+    
+      .from {
+        width: 100%;
+    }
+    .overlay-1{
+        font-size: 20px;
+        display: block;
+        white-space: nowrap;
+
+    }
+
+  
+
+    .overlay-2 {
+        margin-top: 20px ;
+        width: 100%;
+    }
+
+    .button-2 {
+        width: 100%;
     }
 
 
