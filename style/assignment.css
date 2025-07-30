@@ -314,7 +314,6 @@
 .last-img {
     max-width: 100%;
     margin: 0 auto;
-    /* display: block; */
 }
 
 /* Center the headline over the image */
@@ -389,14 +388,14 @@
 /* media */
 @media screen and (max-width: 768px) {
 
-    .flower-card {
+    .flower-card,
+    .flower-store-title {
         flex-direction: column;
         text-align: center;
     }
 
     /* Image and texts center align */
-    .teams,
-    .flower-store-title {
+    .teams {
         flex-direction: column-reverse;
         text-align: center;
     }
@@ -428,12 +427,13 @@
     }
 
 
- .from {
-    width: 200px;
-    height: 2.7rem;
-    margin-left: 27px;
-    font-size: 1rem;
-}
+    .from {
+        width: 200px;
+        height: 2.7rem;
+        margin-right: 0px;
+        margin-left: 40px;
+        font-size: 1rem;
+    }
 
     .overlay-1 {
         font-size: 20px;
@@ -449,6 +449,8 @@
 
     .button-2 {
         width: 100%;
+        margin: 0 auto;
+        margin-right: 25px;
     }
 
     .footer-content {
@@ -468,7 +470,4 @@
     .footer-logo {
         margin-top: 0px;
     }
-
-
-
 }
